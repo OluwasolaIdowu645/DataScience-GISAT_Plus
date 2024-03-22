@@ -1,35 +1,35 @@
-GISAT_Plus Readme
+# GISAT_Plus Readme
 Overview
 GISAT_Plus (Gap Identification System Analysis Tool) is a modern GUI Python application designed for mining health data from the Electronic Medical Record (EMR) system known as the Nigeria Medical Record System (NMRS). Developed as a version of OpenMRS tailored for Nigeria, NMRS is a crucial tool for healthcare data management in the country. GISAT_Plus seamlessly connects to the MySQL engine of NMRS, allowing healthcare professionals to automatically generate patient line lists for detailed reports. With a sleek and intuitive interface, GISAT_Plus empowers users to leverage over 650 patient-level data components for in-depth analysis and reporting.
 Features
-•	Data Mining: Automatically generates patient line lists for various reports, including:
-•	HIV Treatment Line List: Provides comprehensive data on patients undergoing HIV treatment, including medication regimens, treatment outcomes, and follow-up visits.
-•	HIV Testing Services Line List: Offers insights into HIV testing services, including testing frequency and results, facilitating targeted interventions for HIV prevention and treatment.
-•	Full Pharmacy Complement: Delivers patient-level pharmacy details, including information on the Decentralized Service Delivery Model (DSD) and Multi Month Dispensing (MMD), enhancing medication management and adherence monitoring.
-•	PMTCT Line List (Prevention of Mother to Child Transmission): Focuses on tracking interventions aimed at preventing the transmission of HIV from mother to child, supporting maternal and child health initiatives.
-•	EID Line List (Early Infant Diagnosis): Provides data on early HIV diagnosis in infants, enabling timely intervention and treatment to improve health outcomes.
-•	AHD Line List (Advanced HIV Disease): Offers insights into patients with advanced HIV disease, facilitating targeted healthcare interventions and support services.
-•	LIMS_EMR Daily Report: Compares data from the Laboratory Information Management System with EMR data, enabling comprehensive analysis and quality assurance.
-•	HIV-COVID_19 Line List: Tracks patients affected by both HIV and COVID-19, supporting coordinated healthcare efforts during public health emergencies.
-•	Last 5 Pharmacy: Provides details of the last five drug refills for each patient, aiding in medication management and adherence monitoring.
-•	OTZ Line List (Operation Triple Zero): Focuses on initiatives aimed at achieving zero new HIV infections, zero AIDS-related deaths, and zero discrimination, supporting HIV prevention and treatment programs.
-•	Mobile HTS Tracker: Monitors the usage of Mobile NMRS for HIV testing services, optimizing resource allocation and improving access to healthcare.
-•	NCD Line List (Non-Communicable Diseases): Provides insights into the prevalence and management of non-communicable diseases among patients, supporting comprehensive healthcare delivery.
-•	PBS Line List (Patient Biometrics System): Delivers patient-level biometric details for identification and tracking purposes, enhancing patient care and security.
-•	Client Tracking and Discontinuation: Helps track interruptions in treatment and identify patients at risk of discontinuing healthcare services, supporting continuity of care initiatives.
-•	Regency Standalone List: Offers standalone reports tailored to specific requirements, providing flexibility in data analysis and reporting.
-•	Nutritional Status List: Provides data on the nutritional status of patients, facilitating targeted interventions and support services.
-•	Database Connectivity: Utilizes SQL Stored procedures created using Python libraries such as sqlalchemy, mysql.connector, and pymysql to interact with the MySQL engine of NMRS, ensuring efficient data retrieval and processing.
-•	Data Security: Ensures health data security and confidentiality by fetching extracted data into an encrypted Excel workbook using Python libraries like pandas, openpyxl, and win32com.client, safeguarding sensitive patient information.
-•	Error Detection: Detects data errors and inconsistencies, such as incomplete data and missing fields, enhancing data quality and reliability for informed decision-making in healthcare delivery.
-•	Data Integration: Capable of merging patient-level data across different health facilities, local governments, and states, facilitating comprehensive data analysis and reporting for improved healthcare outcomes.
+1.	Data Mining: Automatically generates patient line lists for various reports, including:
+      •	HIV Treatment Line List: Provides comprehensive data on patients undergoing HIV treatment, including medication regimens, treatment outcomes, and follow-up visits.
+      •	HIV Testing Services Line List: Offers insights into HIV testing services, including testing frequency and results, facilitating targeted interventions for HIV prevention and treatment.
+      •	Full Pharmacy Complement: Delivers patient-level pharmacy details, including information on the Decentralized Service Delivery Model (DSD) and Multi Month Dispensing (MMD), enhancing medication management and adherence monitoring.
+      •	PMTCT Line List (Prevention of Mother to Child Transmission): Focuses on tracking interventions aimed at preventing the transmission of HIV from mother to child, supporting maternal and child health initiatives.
+      •	EID Line List (Early Infant Diagnosis): Provides data on early HIV diagnosis in infants, enabling timely intervention and treatment to improve health outcomes.
+      •	AHD Line List (Advanced HIV Disease): Offers insights into patients with advanced HIV disease, facilitating targeted healthcare interventions and support services.
+      •	LIMS_EMR Daily Report: Compares data from the Laboratory Information Management System with EMR data, enabling comprehensive analysis and quality assurance.
+      •	HIV-COVID_19 Line List: Tracks patients affected by both HIV and COVID-19, supporting coordinated healthcare efforts during public health emergencies.
+      •	Last 5 Pharmacy: Provides details of the last five drug refills for each patient, aiding in medication management and adherence monitoring.
+      •	OTZ Line List (Operation Triple Zero): Focuses on initiatives aimed at achieving zero new HIV infections, zero AIDS-related deaths, and zero discrimination, supporting HIV prevention and treatment programs.
+      •	Mobile HTS Tracker: Monitors the usage of Mobile NMRS for HIV testing services, optimizing resource allocation and improving access to healthcare.
+      •	NCD Line List (Non-Communicable Diseases): Provides insights into the prevalence and management of non-communicable diseases among patients, supporting comprehensive healthcare delivery.
+      •	PBS Line List (Patient Biometrics System): Delivers patient-level biometric details for identification and tracking purposes, enhancing patient care and security.
+      •	Client Tracking and Discontinuation: Helps track interruptions in treatment and identify patients at risk of discontinuing healthcare services, supporting continuity of care initiatives.
+      •	Regency Standalone List: Offers standalone reports tailored to specific requirements, providing flexibility in data analysis and reporting.
+      •	Nutritional Status List: Provides data on the nutritional status of patients, facilitating targeted interventions and support services.
+2.	Database Connectivity: Utilizes SQL Stored procedures created using Python libraries such as sqlalchemy, mysql.connector, and pymysql to interact with the MySQL engine of NMRS, ensuring efficient data retrieval and processing.
+3.	Data Security: Ensures health data security and confidentiality by fetching extracted data into an encrypted Excel workbook using Python libraries like pandas, openpyxl, and win32com.client, safeguarding sensitive patient information.
+4.	Error Detection: Detects data errors and inconsistencies, such as incomplete data and missing fields, enhancing data quality and reliability for informed decision-making in healthcare delivery.
+5.	Data Integration: Capable of merging patient-level data across different health facilities, local governments, and states, facilitating comprehensive data analysis and reporting for improved healthcare outcomes.
 Data Components of Each Line List
 Each line list generated by GISAT_Plus comprises detailed patient-level data components tailored to specific healthcare needs, including:
-•	Demographic information (e.g., age, gender, location)
-•	Clinical indicators (e.g., diagnosis date, treatment regimen)
-•	Laboratory results (e.g., viral load measurements, CD4 cell count)
-•	Medication details (e.g., drug refills, adherence indicators)
-•	Service utilization (e.g., follow-up visits, testing frequency)
+  •	Demographic information (e.g., age, gender, location)
+  •	Clinical indicators (e.g., diagnosis date, treatment regimen)
+  •	Laboratory results (e.g., viral load measurements, CD4 cell count)
+  •	Medication details (e.g., drug refills, adherence indicators)
+  •	Service utilization (e.g., follow-up visits, testing frequency)
 These data components provide valuable insights into patient demographics, disease progression, treatment outcomes, and healthcare service utilization, enabling healthcare professionals to make informed decisions and improve patient care effectively.
 Getting Started
 To get started with GISAT_Plus:
