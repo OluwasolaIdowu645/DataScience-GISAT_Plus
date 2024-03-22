@@ -21,7 +21,7 @@ Features
       •	Client Tracking and Discontinuation: Helps track interruptions in treatment and identify patients at risk of discontinuing healthcare services, supporting continuity of care initiatives.
       •	Regency Standalone List: Offers standalone reports tailored to specific requirements, providing flexibility in data analysis and reporting.
       •	Nutritional Status List: Provides data on the nutritional status of patients, facilitating targeted interventions and support services.
-  	![image](https://github.com/OluwasolaIdowu645/DataScience-GISAT_Plus/assets/162600317/31abc241-9322-4288-9ed1-7d206ff27d26)
+  	![image](https://github.com/OluwasolaIdowu645/DataScience-GISAT_Plus/assets/162600317/f0d6f3e7-ca94-487e-a570-8755735f9887)
 
 3.	Database Connectivity: Utilizes SQL Stored procedures created using Python libraries such as sqlalchemy, mysql.connector, and pymysql to interact with the MySQL engine of NMRS, ensuring efficient data retrieval and processing.
 4.	Data Security: Ensures health data security and confidentiality by fetching extracted data into an encrypted Excel workbook using Python libraries like pandas, openpyxl, and win32com.client, safeguarding sensitive patient information.
