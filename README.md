@@ -21,11 +21,11 @@ Features
       •	Client Tracking and Discontinuation: Helps track interruptions in treatment and identify patients at risk of discontinuing healthcare services, supporting continuity of care initiatives.
       •	Regency Standalone List: Offers standalone reports tailored to specific requirements, providing flexibility in data analysis and reporting.
       •	Nutritional Status List: Provides data on the nutritional status of patients, facilitating targeted interventions and support services.
-  	![image](https://github.com/OluwasolaIdowu645/DataScience-GISAT_Plus/assets/162600317/f0d6f3e7-ca94-487e-a570-8755735f9887)
+  	![image](https://github.com/OluwasolaIdowu645/DataScience-GISAT_Plus/assets/162600317/f0d6f3e7-ca94-487e-a570-8755735f9887) ![image](https://github.com/OluwasolaIdowu645/DataScience-GISAT_Plus/assets/162600317/57932e5c-8e75-4def-a67d-d4795bc974be)
 
 3.	Database Connectivity: Utilizes SQL Stored procedures created using Python libraries such as sqlalchemy, mysql.connector, and pymysql to interact with the MySQL engine of NMRS, ensuring efficient data retrieval and processing.
 4.	Data Security: Ensures health data security and confidentiality by fetching extracted data into an encrypted Excel workbook using Python libraries like pandas, openpyxl, and win32com.client, safeguarding sensitive patient information.
-5.	Error Detection: Detects data errors and inconsistencies, such as incomplete data and missing fields, enhancing data quality and reliability for informed decision-making in healthcare delivery.
+5.	Error Detection: Detects data errors and inconsistencies, such as incomplete data and missing fields, enhancing data quality and reliability for informed decision-making in healthcare delivery.![image](https://github.com/OluwasolaIdowu645/DataScience-GISAT_Plus/assets/162600317/2eb98f75-ea7b-461e-8c60-de7c7db9462c)
 6.	Data Integration: Capable of merging patient-level data across different health facilities, local governments, and states, facilitating comprehensive data analysis and reporting for improved healthcare outcomes.
 
 ![image](https://github.com/OluwasolaIdowu645/DataScience-GISAT_Plus/assets/162600317/5f78a49e-feb0-426b-94e3-892c65d01a5f)
