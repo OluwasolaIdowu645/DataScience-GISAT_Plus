@@ -1,6 +1,8 @@
 # GISAT_Plus Readme
 Overview
 GISAT_Plus (Gap Identification System Analysis Tool) is a modern GUI Python application designed for mining health data from the Electronic Medical Record (EMR) system known as the Nigeria Medical Record System (NMRS). Developed as a version of OpenMRS tailored for Nigeria, NMRS is a crucial tool for healthcare data management in the country. GISAT_Plus seamlessly connects to the MySQL engine of NMRS, allowing healthcare professionals to automatically generate patient line lists for detailed reports. With a sleek and intuitive interface, GISAT_Plus empowers users to leverage over 650 patient-level data components for in-depth analysis and reporting.
+![image](https://github.com/OluwasolaIdowu645/DataScience-GISAT_Plus/assets/162600317/73e12c97-8acf-4aca-96f4-a9b9300de102)
+
 Features
 1.	Data Mining: Automatically generates patient line lists for various reports, including:
       •	HIV Treatment Line List: Provides comprehensive data on patients undergoing HIV treatment, including medication regimens, treatment outcomes, and follow-up visits.
@@ -46,4 +48,3 @@ Getting Help
 For assistance or support with GISAT_Plus, please visit the project repository on GitHub and open an issue: GISAT_Plus Issues.
 Maintenance and Contributions
 GISAT_Plus is maintained and contributed to by Oluwasola Idowu, affiliated with the Centre for Integrated Health Program (CIHP), PHIS3, and the Centers for Disease Control and Prevention (CDC). Contributions from the community are welcome, and interested individuals can fork the repository, make changes, and submit pull requests for review and integration into the project.
-
